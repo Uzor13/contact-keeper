@@ -17,7 +17,7 @@ const Navbar = ({title, icon}) => {
                 </li>
             </ul>
         </div>
-    )
+    );
 }
 Navbar.propTypes = {
     title: PropTypes.string.isRequired,
